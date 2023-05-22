@@ -1,6 +1,3 @@
-
-DocViewer
-Pages
 import java.util.Scanner;
 // A "casino" class
 public class StockMarket {

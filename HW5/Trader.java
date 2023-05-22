@@ -1,8 +1,3 @@
-
-DocViewer
-Page
-of 2
-Pages
 // Import the Random class
 import java.util.Random;
 // A Class that defines an object of type Trader
