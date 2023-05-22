@@ -8,22 +8,37 @@ public class Trader {
 // stockChangePercentage of type double
 // dollarsSpent of type double
 // dollarsMade of type double
-//
+    private String traderName;
+    private double stockChangePercentage;
+    private double dollarsSpent;
+    private double dollarsMade;
 // method: getStockChangePercentage, public
 // input: void
 // output: double
 // description: retrieves the value stockChangePercentage field
-//
+    public double stockChangePercentage() {
+
+
+
+    }
 // method: setStockChangePercentage , public
 // input: percentage, which is of type double
 // output: void
 // description: assign the field stockChangePercentage to percentage
-//
+    public void setStockChangePercentage(double percentage) {
+
+        percentage = stockChangePercentage;
+
+    }
 // method: keepTrading, public
 // input parameter: dollars, which is of type double
 // output: none
 // description (pseudocode):
-//
+    public void keepTrading(double dollars) {
+
+
+
+    }
 // 1) increment field dollarsSpent by input value dollars
 // 2) declare randomNumbers of be of type Random, and instantiate new random
 class
