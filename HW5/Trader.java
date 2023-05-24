@@ -18,7 +18,7 @@ public class Trader {
 // description: retrieves the value stockChangePercentage field
     public double stockChangePercentage() {
 
-
+        double changePercentage = stockChangePercentage;
 
     }
 // method: setStockChangePercentage , public
@@ -41,9 +41,9 @@ public class Trader {
     }
 // 1) increment field dollarsSpent by input value dollars
 // 2) declare randomNumbers of be of type Random, and instantiate new random
-class
+//class
 // 3) declare variable randomDouble of type double, and assign it the value
-output
+//output
 // by the method nextDouble() of randomNumbers
 // 4) if (randomDouble < stockChangePercentage){
 // println(traderName + " made");
@@ -76,10 +76,9 @@ output
 // 1. set traderName to value in input argument name
 // 2. set dollarsMade to 1000 (all Traders begin with $1000)
 // 3. set dollarsSpent to 0 (all Traders begin neutrally)
-public Trader(String name) {
-traderName = name;
-dollarsMade = 1000;
-dollarsSpent = 0;
+    public Trader(String name) {
+    traderName = name;
+    dollarsMade = 1000;
+    dollarsSpent = 0;
+    }
 }
-}
-Annotations

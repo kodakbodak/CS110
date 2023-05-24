@@ -6,7 +6,7 @@ public static void main(String Args[]) {
 // each of which references a new instance of an object of type Trader,
 // created using the non-standard constructor
 // set stock change percentage (stockChangePercentage) for each player
-(sample percentages)
+//(sample percentages)
 // trader1 has stock change percentage of 0.61
 // trader2 has stock change percentage of 0.19
 // trader3 has stock change percentage of 0.81
@@ -20,20 +20,19 @@ public static void main(String Args[]) {
 // a while loop, with a "true" conditional
 while (true) {
 // For each of the four traders, retrieve the trader's name, how much
-money hey/she spent,
+//money hey/she spent,
 // how much money he/she currently has, and the trader's net profit.
-Print that information
+//Print that information
 // to the screen. Look at the homework handout for sample output
 // use a System.out.print statement to ask how much money each trader
-should bet.
+//should bet.
 // Then declare a variable dollarsSpend of type double, and set its
-value to the keyboard's
+//value to the keyboard's
 // keystroke (be sure to use keyboard.nextDouble()).
 // If the user enters 0, then issue a break statement, so that the
-while loop terminates
+//while loop terminates
 // Else, invoke the tradeSomeMore method of each Trader, and pass it
-the variable dollarsSpend
+//the variable dollarsSpend
 }
 }
 }
-Annotations
